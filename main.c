@@ -17,7 +17,7 @@ int main() {
     int d = 6, f = 7;
 
     printf("Register  %p\n", g);
-    // Silly
+   
     printf("Bitwise %d", d | f);
     printf("Logical %d", d || f);
 
