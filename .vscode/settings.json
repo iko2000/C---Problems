@@ -1,0 +1,9 @@
+{
+  // Disable Copilot entirely for this workspace
+  "github.copilot.enable": {
+    "*": false
+  }
+
+  // — OR — if you only want to stop inline suggestions:
+  // "editor.inlineSuggest.enabled": false
+}

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+int func(int, int);
 
 int area(int a,int b)  {
 
@@ -21,6 +21,9 @@ int main() {
     printf("Bitwise %d", d | f);
     printf("Logical %d", d || f);
 
+    int val = func(5,7);
+    
+    printf("The helper function %d",val );
 
     if(c > 3 &&  c != 4){
         printf("Inside the block");
